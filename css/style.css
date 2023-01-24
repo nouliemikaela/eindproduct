@@ -1,0 +1,110 @@
+.clear{
+    clear: both;
+}
+
+header{
+    background: orangered;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+
+}
+nav li{
+    float: left;
+    border-right: 1px solid #bbb;
+
+}
+
+nav{
+    padding: 30px;
+    margin-bottom: 50px;
+
+}
+
+li a{
+    color: white;
+    font-size:x-large;
+    /* border: 1px solid white; */
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+}
+
+li:last-child {
+    border-right: none;
+  }
+
+h1{
+    text-transform: uppercase;
+    font-size: 3em;
+    font-family: 'Merriweather', serif;
+    line-height: 100px;
+    color: orangered;
+}
+
+.container{
+    margin-left: 50px;
+}
+
+main{
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+}
+
+.gruttoplaatje{
+    width: 800px;
+    margin-top: 100px;
+    color: black;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+p{
+    color: sienna;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.video{
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.intro a{
+    font-family: 'Merriweather', serif;
+    color: sienna;
+
+}
+
+.kaart img{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    float: right;
+    margin-right: 100px;
+}
+
+.verhaal{
+    margin-top: 20px;
+    float: left;
+}
+
+.verhaal2{
+    float: left;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(79, 36, 16);
+    left: 0;
+    bottom: 0;
+    color: rgb(255, 183, 157);
+    line-height: 100px;
+    text-align: center;
+
+}
+
